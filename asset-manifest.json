@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/react-aviasales/static/css/main.e1ceb241.css",
+    "main.js": "/react-aviasales/static/js/main.c3d3b136.js",
+    "static/media/logo.svg": "/react-aviasales/static/media/logo.472c04511e4ad43b5d411bb650acb7a9.svg",
+    "index.html": "/react-aviasales/index.html",
+    "static/media/checkbox.svg": "/react-aviasales/static/media/checkbox.0fa36354974ac983e8c4.svg",
+    "static/media/uncheckedbox.svg": "/react-aviasales/static/media/uncheckedbox.ad129cbfffeae07a4acb.svg",
+    "main.e1ceb241.css.map": "/react-aviasales/static/css/main.e1ceb241.css.map",
+    "main.c3d3b136.js.map": "/react-aviasales/static/js/main.c3d3b136.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e1ceb241.css",
+    "static/js/main.c3d3b136.js"
+  ]
+}
