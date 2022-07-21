@@ -1,0 +1,22 @@
+@import '../variables.scss';
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 960px;
+  min-width: 375px;
+  min-height: 100vh;
+  background-color: $background-secondary;
+  box-sizing: border-box;
+  padding-bottom: 30px;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 810px) {
+  .main {
+    flex-wrap: wrap;
+  }
+}

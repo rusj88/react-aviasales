@@ -1,0 +1,82 @@
+@import "../variables.scss";
+
+.side-box {
+  width: 232px;
+  height: 252px;
+  background-color: $white;
+  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  box-sizing: border-box;
+  padding: 25px 0 20px 0;
+  border-radius: 6px;
+}
+
+.label-container {
+  box-sizing: border-box;
+  padding: 10.5px 20px;
+  display: flex;
+  align-items: center;
+}
+
+.label-container:hover {
+  background-color: $accent;
+}
+
+.side-box h5 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  line-height: 12px;
+  margin: 0;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  color: $primary-text;
+}
+
+.label {
+  display: block;
+  position: relative;
+  padding-left: 30px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  font-size: 13px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  color: $primary-text;
+}
+
+.label input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background-image: url("uncheckedbox.svg");
+}
+
+.label input:checked ~ .checkmark {
+  background-image: url("checkbox.svg");
+}
+
+@media only screen and (max-width:810px) { 
+  .side-box {
+    width: 90%;
+    margin-bottom: 24px;
+    margin-right: 0;
+  }
+}

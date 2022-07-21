@@ -1,0 +1,17 @@
+.header {
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  padding-top: 36px;
+  flex-wrap: wrap;
+}
+
+.statusBar {
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  padding: 6px 0;
+  width: 100%;
+  height: 35px;
+}
+
